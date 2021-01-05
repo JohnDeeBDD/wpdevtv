@@ -2,7 +2,7 @@
 
 namespace WPDEV;
 // Register Custom Post Type
-function TVLinks() {
+function TVLinks_CPT() {
 
     $labels = array(
         'name'                  => _x( 'TV-Links', 'wpdev' ),
@@ -56,4 +56,4 @@ function TVLinks() {
     register_post_type( 'TV-Link', $args );
 
 }
-add_action( 'init', 'WPDEV\tvlinks_CPT', 0 );
+add_action( 'init', 'WPDEV\TVLinks_CPT', 0 );
