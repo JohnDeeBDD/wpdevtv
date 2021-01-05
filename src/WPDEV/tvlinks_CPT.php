@@ -56,4 +56,4 @@ function TVLinks() {
     register_post_type( 'TV-Link', $args );
 
 }
-add_action( 'init', 'wpdev\tvlinks_CPT', 0 );
+add_action( 'init', 'WPDEV\tvlinks_CPT', 0 );
