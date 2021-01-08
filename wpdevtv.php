@@ -11,7 +11,9 @@
 
 namespace WPDEV;
 
+//die("legit.php");
 //error_reporting(E_ALL & ~E_NOTICE);
 
 //require_once (plugin_dir_path(__FILE__). 'src/WPDEV/autoloader.php');
 require_once (plugin_dir_path(__FILE__). 'src/WPDEV/tvlinks_CPT.php');
+require_once (plugin_dir_path(__FILE__). 'src/WPDEV/meetups_CPT.php');
