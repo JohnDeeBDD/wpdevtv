@@ -11,7 +11,7 @@
 
 namespace WPDEV;
 
-//die("legit.php");
+die("testing 1 sec....");
 //error_reporting(E_ALL & ~E_NOTICE);
 
 //require_once (plugin_dir_path(__FILE__). 'src/WPDEV/autoloader.php');
