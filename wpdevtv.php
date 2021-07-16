@@ -11,7 +11,7 @@
 
 namespace WPDEV;
 
-die("wpdevtv!");
+//die("wpdevtv!");
 //error_reporting(E_ALL & ~E_NOTICE);
 
 //require_once (plugin_dir_path(__FILE__). 'src/WPDEV/autoloader.php');
